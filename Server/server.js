@@ -9,4 +9,7 @@ app.use(express.static("../Public"));
 
 app.post('/send', (req, res) => {
     console.log(req.body);
+    if (req.body.URL.toString().startsWith(".")){
+        console.log(req.body);
+    }
 })
