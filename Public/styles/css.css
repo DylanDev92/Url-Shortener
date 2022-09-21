@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #FFD60A;
+}
+
+header {
+  background-color: #003566;
+  color: #FFC300;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  color: #003566;
+}
+
+footer h3 {
+  margin: 0;
+}
+
+.main {
+  background-color: #001D3D;
+  color: #FFD60A;
+  text-align: center;
+  margin: 10%;
+  padding: 2em;
+  border-radius: 1em;
+}
+
+.main h2 {
+  background-color: #003566;
+  border-radius: 0.5em;
+}
+
+.main .input-url {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.main .input-url h3 {
+  color: #FFC300;
+  margin: 1em;
+}
+
+.main .input-url input {
+  background-color: #FFC300;
+  margin: 0;
+  font-size: 2em;
+  width: 100%;
+  border-radius: 0.5em;
+  border-color: #FFD60A;
+  border-style: none;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+}
+
+.main button {
+  margin: 2em;
+  margin-bottom: 0;
+  background-color: #FFD60A;
+  padding: 1em 3em 1em 3em;
+  color: #000814;
+  border-radius: 1em;
+  font-weight: 700;
+}
+/*# sourceMappingURL=css.css.map */
