@@ -18,9 +18,12 @@ footer {
     position: fixed;
     bottom: 0;
     right: 0;
-    color: #003566;
     h3 {
+        padding: 1em 0.1em 0.1em 0.5em;
+        border-radius: 1em 0em 0em 0em;
         margin: 0;
+        background-color: #001D3D;
+        color: #FFD60A;
     }
 }
 
@@ -34,6 +37,7 @@ footer {
     h2 {
         background-color: #003566;
         border-radius: 0.5em;
+        cursor: pointer;
     }
     .input-url {
         display: flex;
@@ -52,6 +56,7 @@ footer {
             border-style: none;
             padding-left: 0.2em;
             padding-right: 0.2em;
+            outline: none;
         }
     }
     button {
@@ -62,6 +67,18 @@ footer {
         color: #000814;
         border-radius: 1em;
         font-weight: 700;
-        
+        cursor: pointer;
     }
+}
+
+.modal {
+    display: none;
+    border-radius: 1em;
+    background-color: #001D3D;
+    margin: 15% auto;
+    padding: 20px;
+    width: 50%;
+    color: white;
+    text-align: center;
+    font-weight: 800;
 }

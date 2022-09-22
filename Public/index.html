@@ -14,12 +14,16 @@
 
     <div class="main">
         <h1>Input an URL to short</h1>
-        <h2><span id="url-shorted"> . </span></h2>
+        <h2><span onclick="copyToClipboard()" title="Click to copy" id="url-shorted">&nbsp</span></h2>
         <div class="input-url">
             <h3>URL: </h3>
             <input type="text" name="" id="input-url-send">
         </div>
         <button onclick="onClickButton()">Short link</button>
+    </div>
+
+    <div class="modal" id="modalid">
+      <p>Successfully copied to clipboard</p>
     </div>
 
     <footer>
